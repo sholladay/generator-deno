@@ -1,0 +1,73 @@
+{
+    "name": "generator-deno",
+    "version": "0.0.0",
+    "description": "Set up your Deno projects",
+    "homepage": "https://github.com/sholladay/generator-deno",
+    "main": "index.js",
+    "author": {
+        "name": "Seth Holladay",
+        "url": "https://seth-holladay.com",
+        "email": "me@seth-holladay.com"
+    },
+    "scripts": {
+        "test": "xo && ava"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:sholladay/generator-deno.git"
+    },
+    "bugs": {
+        "url": "https://github.com/sholladay/generator-deno/issues",
+        "email": "me@seth-holladay.com"
+    },
+    "engines": {
+        "node": ">=8"
+    },
+    "license": "MPL-2.0",
+    "files": [
+        "index.js"
+    ],
+    "dependencies": {
+        "chalk": "^2.0.1",
+        "first-name": "^0.1.0",
+        "fullname": "^3.0.0",
+        "gh-got": "^8.0.1",
+        "git-description": "^0.1.0",
+        "normalize-url": "^4.0.0",
+        "underscore.string": "^3.3.4",
+        "update-notifier": "^2.2.0",
+        "username": "^4.0.0",
+        "validate-npm-package-name": "^3.0.0",
+        "yeoman-generator": "^3.2.0",
+        "yosay": "^2.0.0"
+    },
+    "devDependencies": {
+        "ava": "^1.0.1",
+        "eslint-config-tidy": "^0.7.0",
+        "xo": "^0.24.0",
+        "yeoman-assert": "^3.0.0",
+        "yeoman-test": "^1.6.0"
+    },
+    "keywords": [
+        "boilerplate",
+        "create",
+        "deno",
+        "denojs",
+        "denoland",
+        "generate",
+        "generator",
+        "init",
+        "scaffold",
+        "setup",
+        "template",
+        "yeoman",
+        "yeoman-generator"
+    ],
+    "xo": {
+        "extend": "tidy",
+        "ignore": [
+            "app/templates/_main.js",
+            "app/templates/_test.js"
+        ]
+    }
+}
